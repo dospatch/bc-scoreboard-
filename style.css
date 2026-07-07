@@ -1,0 +1,196 @@
+body {
+
+    margin:0;
+
+    font-family:Arial, sans-serif;
+
+    overflow:hidden;
+
+}
+
+
+
+.hidden {
+
+    display:none;
+
+}
+
+
+
+#scoreboard {
+
+
+    position:absolute;
+
+    width:850px;
+
+    top:50%;
+
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+
+    background:#111;
+
+    color:white;
+
+
+    padding:25px;
+
+
+    border-radius:20px;
+
+
+    box-shadow:0 0 40px black;
+
+
+}
+
+
+
+.header {
+
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+
+}
+
+
+
+.header img {
+
+
+    width:80px;
+
+    height:80px;
+
+
+    border-radius:50%;
+
+
+}
+
+
+
+.header h1 {
+
+
+    margin:0;
+
+    font-size:28px;
+
+
+}
+
+
+
+
+
+.departments {
+
+
+    display:flex;
+
+    gap:15px;
+
+    margin:20px 0;
+
+
+}
+
+
+
+.card {
+
+
+    flex:1;
+
+    background:#222;
+
+    padding:15px;
+
+    border-radius:12px;
+
+    text-align:center;
+
+    font-size:18px;
+
+
+}
+
+
+
+.card span {
+
+
+    display:block;
+
+    font-size:25px;
+
+    margin-top:5px;
+
+
+}
+
+
+
+
+input {
+
+
+    width:100%;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    border:none;
+
+    margin-bottom:15px;
+
+}
+
+
+
+table {
+
+
+    width:100%;
+
+    border-collapse:collapse;
+
+
+}
+
+
+
+th {
+
+
+    background:#222;
+
+    padding:12px;
+
+
+}
+
+
+
+td {
+
+
+    padding:10px;
+
+    text-align:center;
+
+    border-bottom:1px solid #333;
+
+
+}
