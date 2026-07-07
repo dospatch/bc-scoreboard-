@@ -30,13 +30,16 @@ Created by BCGAMING
 
 ## Installation
 
+Make sure to download it 
+
+After downloading it, you must extract it 
 1. Upload `bc-scoreboard` into your resources folder.
 
 2. Add:
 
 ensure bc-scoreboard
 
-to your server.cfg.
+To your server.cfg.
 
 
 3. Restart your server.
